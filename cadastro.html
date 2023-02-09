@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/cadastro.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <header
+      class="background-header"
+      data-aos="fade-up"
+      data-aos-duration="200"
+    >
+      <div class="container-header">
+        <a href="index.html"
+          ><img
+            src="img/Logo.svg"
+            alt="Logo Node Bounty"
+            width="105px"
+            height="70px"
+        /></a>
+        <nav class="menu-header">
+          <ul class="navegacao-header">
+            <li><a href="sobre.html">O node bounty</a></li>
+            <li><a href="cadastro.html">Abrir conta</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="acesso.html">Acesso</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="div-cadastro-background">
+        <div class="div-cadastro-header">
+            <h1>Abrir conta</h1>
+        </div>
+        <form class="div-form-cadastro">
+            <div class="div-form-content">
+                <label for="nomecompleto">Nome Completo</label>
+                <input type="text" name="nomecompleto" id="nomecompleto">
+                <label for="celular">Celular</label>
+                <input type="text" name="celular" id="celular">
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email">
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf">
+                <label for="rg">RG</label>
+                <input type="text" name="rg" id="rg">
+            </div>
+            <div class="div-form-content">
+                <label for="endereço">Endereço</label>
+                <input type="text" name="endereço" id="endereço">
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" id="cep">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha">
+                <label for="confirmarsenha">Confirmar senha</label>
+                <input type="password" name="senha" id="senha">
+                <button class="botao-cadastro">Próximo</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+  <footer class="footer-background" data-aos="fade-up" data-aos-duration="200">
+    <div class="footer-div-itens">
+      <div class="footer-div-logo">
+        <img src="img/Logo.svg" alt="Logo Node Bounty" width="150px" />
+      </div>
+      <div class="footer-div-descricao">
+        <p>
+            Contato<br>
+            Atendimento 24h<br>
+            Chat no aplicativo<br>
+            9999-9999 (Regiões metropolitanas)
+            0800-000-000 (Demais localidades)<br>
+            WhatsApp: 11 0000-0000 <br>
+            (Não é preciso inserir o dígito 9 antes do número)
+        </p>
+      </div>
+      <div class="footer-div-descricao">
+        <p>
+          Reclamações, sugestões e elogios: 0800-000-0000<br>
+          SAC - Deficiência auditiva ou de fala: 0800-000-0000<br>
+          Horário de funcionamento: 24 horas por dia, 7 dias por semana<br> 
+          Se não ficou satisfeito, ligue para: 0800-000-0000<br>
+          Horário de funcionamento: De segunda a sexta-feira (exceto feriados), das 9h às 18h. <br>
+          Fale com a Ouvidoria
+        </p>
+      </div>
+      <div class="footer-div-redes-titulo">
+        <p>Redes Sociais</p>
+      </div>
+      <div class="footer-div-redes">
+        <a href="#"><img src="img/facebook.svg" alt="Logo facebook"></a>
+        <a href="#"><img src="img/twitter.svg" alt="Logo Twitter"></a>
+        <a href="#"><img src="img/instagram.svg" alt="Logo instagram">
+      </div></a>
+    </div>
+    <div class="footer-div-copyright-background">
+      <div class="footer-div-copyright">
+        <p>Node Bounty© Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+</html>
