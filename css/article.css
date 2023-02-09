@@ -1,0 +1,78 @@
+article {
+  width: 100%;
+}
+.article-background {
+  background-color: #424040;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: auto;
+}
+
+.linha-horizontal {
+  width: 30%;
+  height: 1px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.div-titulo-article h1 {
+  color: white;
+  font-family: "Inter";
+  font-weight: 100;
+  text-align: right;
+  font-size: 40px;
+  transition: 0.8;
+}
+
+.div-titulo-article {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.article-background h1:hover {
+  color: #07b4ac;
+  transition: all 0.6s linear;
+  opacity: 0.8;
+}
+
+.div-lista-itens-article {
+  align-items: center;
+  margin: 0 25%;
+}
+.div-lista-itens-article ul {
+  display: flex;
+  gap: 90px;
+  align-items: center;
+  text-align: center;
+  padding: 100px 0;
+}
+.div-lista-itens-article p {
+  color: white;
+  font-weight: 200;
+  position: relative;
+}
+
+/* hover e after */
+
+.lista-itens-article p:hover {
+  color: #06b6ad;
+}
+
+.lista-itens-article p:after {
+  content: "";
+  width: 0%;
+  display: block;
+  height: 1px;
+  background-color: white;
+  opacity: 0.1;
+  transition: 0.4s;
+  margin-top: 7px;
+}
+
+.lista-itens-article p:hover::after {
+  width: 100%;
+  position: relative;
+}

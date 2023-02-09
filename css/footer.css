@@ -1,0 +1,49 @@
+.footer-background {
+  background-color: #333333;
+  width: 100%;
+}
+
+.footer-div-logo {
+  padding: 40px;
+  padding-left: 60px;
+  width: 120px;
+}
+
+.footer-div-descricao {
+  margin-left: 60px;
+  margin-right: 60px;
+  flex-wrap: wrap;
+  font-size: 15px;
+  color: #525252;
+}
+
+.footer-div-redes {
+  padding-left: 60px;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 60px;
+}
+
+.footer-div-redes-titulo {
+  padding-left: 60px;
+  color: #525252;
+}
+
+.footer-div-redes img {
+  cursor: pointer;
+}
+
+.footer-div-copyright {
+  padding-left: 60px;
+  padding-top: 5px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  color: #525252;
+  text-align: center;
+}
+
+.footer-div-copyright-background {
+  height: 60px;
+  background-color: #2c2c2c;
+  font-size: 15px;
+}

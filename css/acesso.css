@@ -1,0 +1,134 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.acesso-background {
+  width: 100%;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding: 0;
+  margin: 0;
+  background-color: #333333;
+  height: 920px;
+}
+.acesso-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  font-family: "Inter";
+}
+
+.acesso-header h1 {
+  font-family: "Inter";
+  font-weight: 100;
+  color: white;
+  margin: 0;
+  padding: 90px;
+  font-size: 35px;
+}
+
+.acesso-header {
+  display: grid;
+  justify-content: center;
+  margin-top: 50px;
+}
+.acesso-content {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter";
+  color: white;
+  font-weight: 200;
+  opacity: 0.5;
+}
+.acesso-content label {
+  padding: 5px;
+  margin: 15px;
+}
+
+.acesso-content input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 350px;
+  opacity: 0.5;
+  color: white;
+  font-size: 16px;
+}
+.acesso-footer {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Inter";
+  font-weight: 200;
+  justify-content: space-between;
+  padding: 25px;
+  opacity: 0.5;
+}
+.acesso-footer a {
+  text-decoration: none;
+  color: white;
+}
+.checkbox {
+  color: white;
+}
+
+.acesso-footer-buttons {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.95;
+}
+.acesso-footer-buttons input {
+  background-color: #4d4d4d;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+  padding: 10px 0;
+  margin-top: 20px;
+  color: white;
+  font-family: "Inter";
+  font-weight: 200;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.acesso-footer-buttons button {
+  background-color: #4d4d4d;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+  padding: 10px 0;
+  margin-top: 10px;
+  color: white;
+  font-family: "Inter";
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.acesso-imagem {
+  padding-left: 10%;
+  opacity: 0.75;
+}
+
+@media (max-width: 1430px) {
+  .acesso-imagem {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-top: 80px;
+    align-items: center;
+  }
+  .acesso-imagem img {
+    width: 200px;
+    height: 150px;
+  }
+}

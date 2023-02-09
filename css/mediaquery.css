@@ -1,0 +1,132 @@
+@media (max-width: 800px) {
+  /* header */
+
+  .container-header {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .navegacao-header {
+    justify-content: center;
+  }
+
+  .navegacao-header a:hover {
+    color: #ffffff;
+  }
+  .navegacao-header a:after {
+    display: none;
+  }
+  /* article */
+  .linha-horizontal {
+    display: none;
+  }
+  .div-titulo-article h1 {
+    display: block;
+  }
+  .div-lista-itens-article ul {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 1430px) {
+  /* main */
+  .background-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imagem-main img {
+    width: 100%;
+  }
+
+  .main-titulo h1 {
+    font-size: 12px;
+  }
+  /* article */
+  .div-lista-itens-article ul {
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  /* article conta-corrente */
+  .conta-corrente-background {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .conta-corrente-itens h1 {
+    padding-top: 150px;
+  }
+  .conta-corrente-itens {
+    text-align: center;
+  }
+  .conta-corrente-itens p {
+    margin-top: 30px;
+  }
+  .conta-corrente-imagem {
+    padding: 150px;
+  }
+/* parceiros */ 
+.parceiros-itens ul {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.parceiros-itens li {
+  padding: 40px;
+}
+}
+
+/* menu hamburguer 
+  .menu-header {
+    height: auto;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: left;
+    padding: 0px;
+  }
+  label[for="menu-ham"] {
+    display: block;
+    margin: 2%;
+  }
+
+  #menu-ham:checked ~ .menu-header {
+    display: block;
+  }
+*/
+/*main 
+  .introducao-main h1 {
+    font-size: 25px;
+    padding: 150px 0px;
+  }
+
+  .introducao-main {
+    padding: 0px;
+    margin: auto;
+  }
+
+  .introducao-main-logo {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+
+  .introducao-main-logo img {
+  }
+
+  .itens-main {
+    flex-direction: column;
+  }
+  .introducao-main h1:hover {
+    color: white;
+    opacity: 1;
+  }
+  .imagem-main {
+    padding: 0px;
+    
+  }
+  .imagem-main img {
+    width: 200%;
+  }
+} */

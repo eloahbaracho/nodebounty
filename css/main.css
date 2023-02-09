@@ -1,0 +1,46 @@
+.background-main {
+  display: flex;
+  padding: 80px 80px;
+}
+
+.main-titulo {
+  max-width: 1200px;
+  padding: 80px 80px;
+  margin: 0 auto;
+  display: flex;
+  gap: 150px;
+  flex-direction: column;
+  grid-template-columns: 1fr 2fr;
+  align-items: flex-start;
+}
+
+.main-titulo h1 {
+ font-size: 40px;
+ font-family: "Inter";
+ color: white;
+ font-weight: 100;
+ margin-top: 60px;
+}
+
+.main-titulo h1:hover {
+  transition: 0.3s;
+  transition-duration: 2s;
+  color: #c77324;
+}
+.imagem-main-logo img {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagem-main-logo {
+  margin: auto;
+}
+
+.imagem-main {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+}
+
+
