@@ -1,2 +1,2 @@
 # nodebounty
-https://eloahbaracho.github.io/nodebounty/
+http://eloahbaracho.github.io.nodebountybank/
