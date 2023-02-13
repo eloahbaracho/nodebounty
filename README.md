@@ -6,4 +6,6 @@ Com o boom dos serviços financeiros no Brasil, a reinvenção se fez necessári
 
 Uma fintech (tecnologia financeira) é caracterizada como uma empresa/startup que desenvolve produtos financeiros digitais, sendo o uso da tecnologia o principal diferencial em relação às corporações tradicionais do mundo financeiro. É visível que a popularização e a disseminação da internet ditou as regras de um novo jogo. Um novo cenário de competição foi criado em vários setores da economia. Ficou mais fácil testar e criar novos produtos por meio dos canais digitais.
 
+https://eloahbaracho.github.io/nodebounty/
+
 <video src="https://user-images.githubusercontent.com/76575066/218266863-b193f50b-b074-4d03-a71f-4df935869cc4.webm"></video> 
